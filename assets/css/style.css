@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Used the semantic tag header to apply css to the header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,10 +21,12 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+/* Used seo class to apply color change in Horiseon text */
+.seo {
     color: #d9dcd6;
 }
 
+/* Used semantic tag to set sizing and links to be properly formatted */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,20 +39,24 @@ nav ul {
     list-style-type: none;
 }
 
+/* This make the links show inline in the header with a margin of 25px on each item*/
 nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This make the links not have the default blue and underlined*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+
 p {
     font-size: 16px;
 }
 
+/* This makes the background directly under the header show across the full page*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,23 +66,45 @@ p {
     background-position: center;
 }
 
+/* This allows the images to stick to the right of their container */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* This allows the images to stick to the left of their container */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
+
+/* The whole article section with this class will take up 75% of the page, have its sections display on top of one another, and has a margin of 20px from the left side of */
+article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+article section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+article img {
+    max-height: 200px;
+}
+
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,7 +115,7 @@ p {
     background-color: #007bbd;
 }
 
-.benefit {
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -96,46 +125,10 @@ h3 {
     text-align: center;
 }
 
-.benefit img {
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-#search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 footer {
@@ -148,3 +141,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
