@@ -1,5 +1,7 @@
 # 01 HTML, CSS, and Git: Code Refactor
 
+![Image output](./assets/images/ScreenShot.png)
+
 ## User Story
 
 ```
@@ -25,9 +27,10 @@ THEN I find a concise, descriptive title
 ```
 
 ## What's in this Repo
+* Files provided in homework folder
 * Updated CSS and html to use all semantic tags instead of non-sematic tags
-* Checked and updated background colors that did not have enougg contrast to be accessibility compliant
-* Updated images tags 
+* Checked and updated background colors that did not have enough contrast to be accessibility compliant
+* Updated images tags to have alt tags
 
 
 
